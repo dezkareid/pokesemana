@@ -1,0 +1,12 @@
+{
+  "name": "Pokesemana",
+  "version": "1.0.0",
+  "authors": [
+  ],
+  "description": "Pokesemana",
+  "main": "index.html",
+  "keywords": [
+  ],
+  "dependencies": {
+  }
+}

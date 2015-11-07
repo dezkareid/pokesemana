@@ -1,0 +1,23 @@
+{
+  "name": "Pokesemana",
+  "version": "0.0.0",
+  "description": "Pokesemana",
+  "author": "",
+  "dependencies": {
+    "react": "latest"
+    },
+  "devDependencies": {
+    "gulp" : "latest",
+    "gulp-concat-util" : "latest",
+    "gulp-concat-css" : "latest",
+    "gulp-connect" : "latest",
+    "gulp-css-flip" : "latest",
+    "gulp-if" : "latest",
+    "gulp-ignore" : "latest",
+    "gulp-jade" : "latest",
+    "gulp-util" : "latest",
+    "through2" : "latest"
+  },
+  "scripts": {
+  }
+}
