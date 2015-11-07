@@ -25,7 +25,7 @@ gulp.task('jade', function () {
 });
 
 gulp.task('css', function(){
-  return gulp.src(["bower_components/**/dist/**/*.min.css"])
+  return gulp.src(["bower_components/**/dist/**/*.min.css", "app/assets/styles/**/*.css"])
       .pipe(concatCss('app.min.css'))
       .pipe(gulp.dest('build/assets/css/'))
 });

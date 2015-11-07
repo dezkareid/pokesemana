@@ -1,8 +1,19 @@
 doctype html
 html
-  head
-    meta(name="viewport" content="width=device-width,initial-scale=1.0")
-    meta(charset="utf-8")
-    title Pokesemana del código
-  body
-    h1 Pokesemana wow
+	head
+		meta(name="viewport" content="width=device-width,initial-scale=1.0")
+		meta(charset="utf-8")
+		title Pokesemana del código
+		link(href="assets/css/app.min.css" rel="stylesheet")
+		script(src="assets/js/app.min.js")
+		script(async defer
+      src="https://maps.googleapis.com/maps/api/js?callback=initMap")
+	body
+		header
+			nav.navbar.navbar-inverse.navbar-fixed-top
+				.container
+					.navbar-header
+						button(type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar").navbar-toggle.collapsed
+							span.sr-only Pokemap
+						a.navbar-brand Pokemap
+		#map
