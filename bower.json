@@ -1,12 +1,11 @@
 {
   "name": "Pokesemana",
   "version": "1.0.0",
-  "authors": [
-  ],
+  "authors": [],
   "description": "Pokesemana",
   "main": "index.html",
-  "keywords": [
-  ],
+  "keywords": [],
   "dependencies": {
+    "bootstrap": "~3.3.5"
   }
 }

@@ -25,13 +25,13 @@ gulp.task('jade', function () {
 });
 
 gulp.task('css', function(){
-  return gulp.src(["bower_components/**/*.min.css","app/assets/styles/**/*.css"])
-      .pipe(concatCss('app.css'))
-      .pipe(gulp.dest('build/assets/css'))
+  return gulp.src(["bower_components/**/dist/**/*.min.css"])
+      .pipe(concatCss('app.min.css'))
+      .pipe(gulp.dest('build/assets/css/'))
 });
 
 gulp.task('js', function() {
-  return gulp.src(["bower_components/**/*.min.js", "app/assets/js/**/*.js"])
+  return gulp.src(["bower_components/**/dist/*.min.js", "app/assets/js/**/*.js"])
     .pipe(concat('app.min.js'))
     .pipe(gulp.dest('build/assets/js/'))
     .pipe(connect.reload())
